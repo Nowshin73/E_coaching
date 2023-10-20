@@ -9,7 +9,7 @@ const Header = () => {
     <div className='header mx-auto my-10 max-w-[1200px]'>
 <Navbar></Navbar>
 <div>
-  <div className='grid md:flex '>
+  <div className='grid p-5 md:p-0 md:flex '>
     <div className='flex flex-col justify-end gap-8'>
       <div className=' grid font-bold text-6xl gap-5 items-baseline'> 
         <span>Take Your </span>
@@ -25,9 +25,9 @@ const Header = () => {
       </div>
     </div>
     <div>
-      <div className='flex'>
+      <div className='flex w'>
       <img src={graph} alt="" />
-     <img className='w-[100%] md:h-[500px] relative -left-[500px]' src={girlwithlaptop} alt="" />
+     <img className='w-[90%] md:h-[500px] relative left-[-500px]' src={girlwithlaptop} alt="" />
       </div>
       <div className='flex items-center w-fit bg-white rounded-md relative -right-[8rem] -top-16'>
         <div className='text-white text-2xl h-14 rounded-md bg-green-600 w-14 flex items-center justify-center'>
@@ -40,7 +40,7 @@ const Header = () => {
       </div>
     </div>
     
-    <div className='flex flex-col justify-end items-end font-semibold gap-5 '>
+    <div className='flex mx-5 md:flex-col justify-end items-baseline font-semibold gap-7 '>
       <div>
         <p className='text-green-600 text-4xl'>100</p>
         <p>Subject to choose from</p>
