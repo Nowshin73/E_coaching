@@ -29,13 +29,13 @@ const Header = () => {
       <img src={graph} alt="" />
      <img className='w-[100%] md:h-[500px] relative -left-[500px]' src={girlwithlaptop} alt="" />
       </div>
-      <div className='flex items-center'>
-        <div className='text-white bg-green-600 p-2'>
+      <div className='flex items-center w-fit bg-white rounded-md relative -right-[8rem] -top-16'>
+        <div className='text-white text-2xl h-14 rounded-md bg-green-600 w-14 flex items-center justify-center'>
         <HiStar></HiStar>
         </div>
-        <div>
-          <p className='font-semibold text-xl'>Web development</p>
-          <p>4520reviews (5.0)</p>
+        <div className='h-14 px-4 flex flex-col items-baseline justify-center'>
+          <p className='font-semibold text-lg'>Web development</p>
+          <p className='text-sm text-slate-600 font-semibold'>452 reviews (5.0)</p>
         </div>
       </div>
     </div>
