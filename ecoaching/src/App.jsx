@@ -9,10 +9,11 @@ function App() {
 
 
   return (
-    <>
-     <Header></Header>
-     <TopCourses></TopCourses>
-    </>
+    <div>
+      <Header></Header>
+      <TopCourses></TopCourses>
+    </div>
+    
   )
 }
 
